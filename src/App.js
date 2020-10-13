@@ -8,7 +8,7 @@ import Shelf from "./Components/Shelf";
 import SearchPage from "./Components/SearchPage";
 import NoMatch from "./Components/NotFoundPage";
 
-class BooksApp extends React.Component {
+export default class BooksApp extends React.Component {
   state = {
     shelf: {
       currentlyReading: [],
@@ -127,4 +127,4 @@ SearchPage.protoType = {
   handlebookmove: PropTypes.func.isRequired,
 };
 
-export default BooksApp;
+//export default BooksApp;
